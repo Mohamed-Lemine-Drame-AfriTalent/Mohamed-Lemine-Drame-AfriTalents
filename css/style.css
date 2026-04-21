@@ -1,0 +1,43 @@
+/* 1. Variables */
+:root {
+     --color-primary: #0d6efd;
+  --color-secondary: #6c757d;
+  --color-dark: #0f172a;
+  --color-light: #f8f9fa;
+  --color-accent: #22c55e;
+
+  --font-title: 'Poppins', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  --spacing: 1rem;
+  --radius: 12px;
+  --transition: all 0.3s ease;
+}
+
+/* 2. Reset */
+* {
+     margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 3. Base (body, textes) */
+body {
+     font-family: var(--font-body);
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-title);
+}
+
+ /* 4. Navbar  */
+ .navbar {
+  transition: var(--transition);
+  padding: 1rem 2rem;
+}
+
+
+
